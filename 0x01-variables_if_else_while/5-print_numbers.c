@@ -7,11 +7,12 @@
  */
 int main(void)
 {
-	int a = 0;
-	while (a < 10)
+	int n = 0;
+
+	while (n < 10)
 	{
-		printf("Value of a: %d\n", a);
-		a++;
+		printf("%d\n", n);
+		n++;
 	}
 	return (0);
 }
