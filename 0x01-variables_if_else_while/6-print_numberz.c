@@ -1,19 +1,19 @@
 #include <stdio.h>
 /**
- * main - Print numbers of base 10 without
- * printf, puts, followed by
- * a new line
+ * main - Entry point
+ * Followed by new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n;
-
-	for (n = 10; n < 10; n++)
+	int n = 0;
+	
+	while (n < 10)
 	{
 		putchar(n);
+		n++;
 	}
-	
 	putchar('\n');
+
 	return (0);
-}	
+}
