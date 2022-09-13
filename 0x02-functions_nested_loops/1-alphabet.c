@@ -1,22 +1,19 @@
 #include "main.h"
 /**
- * print the alphabet x 10
+ * main - print the alphabet
  * follwed by a new line
  * Return: Always 0 (Sucess)
  */
 void print_alphabet(void)
 {
-	int i = 1;
-	char c = 'a';
-	while (i < 10)
+	char c;
+
+	c = 'a';
+
+	while (c <= 'z');
 	{
-		c = 'a';
-		while (c <= 'z')
-		{
-			_putchar(c);
-			c++;
-		}
-		i++;
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
 }
