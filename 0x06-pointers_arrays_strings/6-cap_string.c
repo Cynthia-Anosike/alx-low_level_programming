@@ -2,15 +2,15 @@
 
 /**
  * cap_string - capitalizes all words of a string
- * @n: input value
+ * @s: input value
  * Return: string
  */
 char *cap_string(char *s)
 {
 	int i, j;
 
-	char spe[13] = {' ', '\t', '\n', ',', ';', '.', '!',
-		'?', '"', '(', ')', '{', '}'};
+	char spe[13] = {' ', '\t', '\n', ',', ';', '.', 
+		'!', '?', '"', '(', ')', '{', '}'};
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
@@ -21,7 +21,7 @@ char *cap_string(char *s)
 		{
 			if (s[i] == spe[j])
 			{
-				if (s[i + 1] >= 97 && s[i] + <= 122)
+				if (s[i + 1] >= 97 && s[i] + 1 <= 122)
 				{
 					s[i + 1] -= 32;
 				}
