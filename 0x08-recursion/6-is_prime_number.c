@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _sqtRecursive -  computes square root recursively
+ * sqtRecursive -  computes square root recursively
  * @n: given number
  * @m: comparison number
  * Return: 1 if not found sqrroot, else sqrroot
