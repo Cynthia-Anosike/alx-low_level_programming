@@ -9,7 +9,7 @@
  */
 int main(int argc _attributes_((unused)), char *argv[])
 {
-	printf(%s\n, argv);
+	printf("%s\n", *argv);
 
 	return (0);
 }
